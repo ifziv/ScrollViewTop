@@ -30,7 +30,7 @@ typedef void (^TapImageViewBlock)(NSInteger curPage);
 @property (nonatomic, strong) TapImageViewBlock tapImageBlock; //Block返回当前点击的第几个Page
 
 /**功能：初始化轮播数组
- * @param array 数据，存储的是字典类型。字典格式｛@“carouseUrl”:value, @"summary":value, @"objectId":value｝
+ * @param array 数据，存储的是字典类型。字典格式｛@“url”:value, @"url":value, @"url":value｝
  */
 -(void)setZCScrollViewWithArray:(NSArray *)array;
 

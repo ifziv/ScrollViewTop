@@ -64,6 +64,9 @@
     
     [scrollView tapImageViewBlock:^(NSInteger curPage) {
         NSLog(@"page %zd", curPage);
+        
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.baidu.com"]];
+
     }];
     
 
